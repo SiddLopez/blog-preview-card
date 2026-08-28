@@ -19,6 +19,7 @@ body{
     min-height: 100vh;
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
+    font-size: 16px;
 }
 
 main{
@@ -35,6 +36,22 @@ main{
     background-color: var(--yellow-color);
     padding: 0.4rem 0.8rem;
     font-weight: 800;
+}
+
+.card__description{
+    color: var(--gray-color);
+}
+
+.card__author{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-weight: 800;
+}
+
+.author__img{
+    width: 40px;
+    height: 40px;
 }
 
 .attribution{
