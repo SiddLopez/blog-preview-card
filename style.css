@@ -36,6 +36,7 @@ main{
 .card__category{
     display: inline;
     background-color: var(--yellow-color);
+    width: fit-content;
     padding: 0.4rem 0.8rem;
     font-weight: 800;
 }
