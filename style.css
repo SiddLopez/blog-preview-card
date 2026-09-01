@@ -32,6 +32,7 @@ main{
     flex-direction: column;
     padding: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0.45rem 0.45rem var(--dark-gray-color);
 }
 
 .card__image{
@@ -53,6 +54,11 @@ main{
     font-size: 1.5rem;
     font-weight: 800;
     margin: 1rem 0;
+}
+.card__title:hover{
+    color: var(--yellow-color);
+    cursor: pointer;
+    
 }
 
 .card__description{
